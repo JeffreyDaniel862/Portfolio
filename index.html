@@ -187,12 +187,22 @@
                         <img src="./assets/project 1.png" alt="">
                     </div>
                     <div class="hover-item">
+                        <h3>Project Demo</h3>
+                        <div class="icons">
+                            <a href="https://youtu.be/ELEjU2XjmO8?feature=shared" class="icon">
+                                <i class="fa-brands fa-youtube"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="image">
+                        <img src="./assets/Project4.png" alt="">
+                    </div>
+                    <div class="hover-item">
                         <h3>Project Source</h3>
                         <div class="icons">
-                            <a href="#" class="icon">
-                                <i class="fa-brands fa-github"></i>
-                            </a>
-                            <a href="#" class="icon">
+                            <a href="https://github.com/JeffreyDaniel862/Weather-App" class="icon">
                                 <i class="fa-brands fa-github"></i>
                             </a>
                         </div>
@@ -200,15 +210,12 @@
                 </div>
                 <div class="portfolio-item">
                     <div class="image">
-                        <img src="./assets/project 1.png" alt="">
+                        <img src="./assets/Project3.png" alt="">
                     </div>
                     <div class="hover-item">
                         <h3>Project Source</h3>
                         <div class="icons">
-                            <a href="#" class="icon">
-                                <i class="fa-brands fa-github"></i>
-                            </a>
-                            <a href="#" class="icon">
+                            <a href="https://github.com/JeffreyDaniel862/Wealth-manager" class="icon">
                                 <i class="fa-brands fa-github"></i>
                             </a>
                         </div>
@@ -216,15 +223,12 @@
                 </div>
                 <div class="portfolio-item">
                     <div class="image">
-                        <img src="./assets/project 1.png" alt="">
+                        <img src="./assets/Project5.png" alt="">
                     </div>
                     <div class="hover-item">
                         <h3>Project Source</h3>
                         <div class="icons">
-                            <a href="#" class="icon">
-                                <i class="fa-brands fa-github"></i>
-                            </a>
-                            <a href="#" class="icon">
+                            <a href="https://github.com/JeffreyDaniel862/Keeper-App" class="icon">
                                 <i class="fa-brands fa-github"></i>
                             </a>
                         </div>
@@ -287,22 +291,23 @@
                         </div>
                     </div>
                     <div class="right-contact">
-                        <form action="" class="contact-form">
+                        <form action="https://formsubmit.co/5eee7788a219c6ec47a5f8bb9e1ef957" class="contact-form" method="POST">
                             <div class="input-control flex-input">
-                                <input type="text" required placeholder="Name">
-                                <input type="email" required placeholder="Email">
+                                <input id="name" name="name" type="text" required placeholder="Name" autocomplete="on">
+                                <input id="email" name="email" type="email" required placeholder="Email" autocomplete="on">
                             </div>
                             <div class="input-control">
-                                <input type="text" required placeholder="Subject">
+                                <input id="subject" name="subject" type="text" required placeholder="Subject">
                             </div>
                             <div class="input-control">
-                                <textarea name="" id="" cols="15" rows="8" placeholder="Message..."></textarea>
+                                <textarea name="message" id="message" cols="15" rows="8" placeholder="Message..." required></textarea>
+                                <input type="hidden" name="_captcha" value="false">
                             </div>
                             <div class="submit-btn">
-                                <a href="" class="main-btn">
+                                <button type="submit">
                                     <span class="btn-text">Submit</span>
                                     <span class="btn-icon"><i class="fa-solid fa-paper-plane"></i></span>
-                                </a>
+                                </button>
                             </div>
                         </form>
                     </div>
