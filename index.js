@@ -40,3 +40,11 @@ function pageTransitions(){
 }
 
 pageTransitions();
+
+const typed = new Typed(".multiple-text", {
+    strings: ["Jeffrey Daniel", "a Web Developer."],
+    typeSpeed: 100,
+    backSpeed: 100,
+    backDelay: 1000,
+    loop: true
+});

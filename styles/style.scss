@@ -193,6 +193,18 @@ section {
 
 //Header content of Portfolio
 
+@keyframes floatImage {
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-1.2rem);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+
 .header-content {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -222,7 +234,7 @@ section {
             margin: 3rem;
             background-color: var(--color-black);
             transition: all .4s ease-in-out;
-
+            animation: floatImage 4s ease-in-out infinite;
             img {
                 height: 100%;
                 width: 100%;
