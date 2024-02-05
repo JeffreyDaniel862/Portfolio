@@ -194,13 +194,15 @@ section {
 //Header content of Portfolio
 
 @keyframes floatImage {
-    0%{
+    0% {
         transform: translateY(0);
     }
-    50%{
+
+    50% {
         transform: translateY(-1.2rem);
     }
-    100%{
+
+    100% {
         transform: translateY(0);
     }
 }
@@ -722,6 +724,7 @@ section {
                 width: 100%;
                 color: var(--color-white);
                 resize: none;
+
                 &:focus {
                     cursor: default;
                     transform: translateY(-5px);
@@ -739,8 +742,9 @@ section {
         .submit-btn {
             display: flex;
             align-items: flex-start;
+
             // height: 40px;
-            button{
+            button {
                 background-color: inherit;
                 height: 100%;
                 width: 50%;
@@ -755,9 +759,11 @@ section {
                 align-items: center;
                 justify-content: space-between;
                 overflow: hidden;
-                .btn-text{
+
+                .btn-text {
                     padding: 0 2rem;
                 }
+
                 .btn-icon {
                     background-color: var(--color-secondary);
                     display: flex;
@@ -766,6 +772,7 @@ section {
                     border-radius: 50%;
                     padding: 1rem;
                 }
+
                 &::before {
                     content: '';
                     position: absolute;
@@ -775,7 +782,7 @@ section {
                     transition: all .4s ease-in-out;
                     z-index: -1;
                 }
-            
+
                 &:hover {
                     &::before {
                         width: 100%;

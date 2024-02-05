@@ -42,7 +42,7 @@ function pageTransitions(){
 pageTransitions();
 
 const typed = new Typed(".multiple-text", {
-    strings: ["Jeffrey Daniel", "a Web Developer."],
+    strings: ["Jeffrey Daniel", "Full-Stack Developer."],
     typeSpeed: 100,
     backSpeed: 100,
     backDelay: 1000,
